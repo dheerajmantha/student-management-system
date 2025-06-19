@@ -1,0 +1,40 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive Student Management System with Node.js backend and vanilla JavaScript frontend",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "cd backend && npm run dev",
+    "start": "cd backend && npm start",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "echo 'Frontend uses vanilla JS - no dependencies to install'",
+    "build": "cd backend && npm install",
+    "init-db": "cd backend && npm run init-db",
+    "setup": "npm run install-backend && npm run init-db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajmantha/student-management-system.git"
+  },
+  "keywords": [
+    "student-management",
+    "education",
+    "nodejs",
+    "express",
+    "sqlite",
+    "sequelize",
+    "dashboard",
+    "grades",
+    "attendance",
+    "courses"
+  ],
+  "author": "Dheeraj Mantha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dheerajmantha/student-management-system/issues"
+  },
+  "homepage": "https://github.com/dheerajmantha/student-management-system#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
